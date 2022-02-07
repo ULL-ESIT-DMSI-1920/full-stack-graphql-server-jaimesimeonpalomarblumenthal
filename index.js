@@ -65,6 +65,7 @@ var queryType = new graphql.GraphQLObjectType({
                         }
                         resolve(rows[0]);
                     });
+                    console.log("Hello World");
                 });
             }
         }
